@@ -4,7 +4,7 @@ Aplicativo Flutter da **Tomada Vital**, solução da Global Solution 2026/2 (Cit
 
 Quando a energia cai, quem depende de um aparelho ligado na tomada fica só com a bateria dele. A Tomada Vital é um dispositivo na tomada que percebe a queda, lê a bateria e avisa a central pela rede celular. A central monta uma fila em que **quem tem menos tempo de bateria é atendido primeiro**. Este app é o lado da **família**: mostra se a casa está sem energia, quantos minutos de bateria restam, a posição na fila e o que a central já fez.
 
-> **Vídeo de demonstração:** [https://youtu.be/cv3VCcZC_rg]
+> **Vídeo de demonstração:** [https://youtu.be/cv3VCcZC_rg](https://youtu.be/cv3VCcZC_rg)
 
 ---
 
@@ -94,7 +94,7 @@ Pré-requisitos: Flutter instalado (`flutter doctor` sem erro em Flutter e Andro
 
 ```bash
 git clone https://github.com/ryanmazali/tomada-vital-mobile.git
-cd tomada_vital
+cd tomada-vital-mobile
 flutter pub get
 flutter run
 ```
@@ -123,4 +123,4 @@ Roteiro rápido: entre com o usuário de teste. Em **Minha casa**, use **Passar 
 |---|---|
 | Claude (Anthropic) | Apoio na organização da arquitetura em camadas, na escrita e revisão do código das telas e componentes, na prévia visual das telas e na redação deste README |
 
-Todo o código foi revisado, executado e testado pelo grupo no emulador Android antes de cada commit.
+Todo o código foi revisado e testado pelo grupo no emulador Android.
